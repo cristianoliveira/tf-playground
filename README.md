@@ -4,13 +4,13 @@ Just playing around with terraform and AWS
 
 ## Prerequisites
 
-- Terraform v1.3.3+
+- Terraform cli v1.3.3+
 - An AWS account and the [aws-cli](https://aws.amazon.com/cli/) configured
 
 ## Usage
 
-- Clone this repository: `git clone https://github.com/example/terraform-project.git`
-- Change into the project directory: `cd terraform-project`
+- Clone this repository: `git clone https://github.com/cristianoliveira/tf-playground.git`
+- Change into the project directory: `cd tf-playground`
 - Initialize Terraform: `terraform init`
 - Configure your variables in `cp dev.tfvars.example dev.tfvars` and edit the file.
 - Create an execution plan: `terraform plan -var-file="dev.tfvars"`
