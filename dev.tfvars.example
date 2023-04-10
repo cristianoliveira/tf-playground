@@ -1,0 +1,5 @@
+aws_ecr_url = ""
+aws_ecr_repo_name = ""
+aws_region = ""
+aws_profile = ""
+app_image_tag = ""
