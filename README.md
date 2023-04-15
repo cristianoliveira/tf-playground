@@ -33,3 +33,14 @@ If you want to delete everything: `terraform destroy`
   `AWS_ECR_REPO=your_ecr IMAGE_TAG=app-v0.0.1 ./aws-push-image-to-ecr.sh`
 - Update the image tag (app_image_tag) in `./dev.tfvars`
 - Apply the new state: `terraform apply -var-file="dev.tfvars"`
+
+## AWS IAM user group and users
+
+Create a user group for admin the infra and add the following permissions:
+
+- AmazonDynamoDBFullAccess
+- AmazonEC2FullAccess
+- AmazonRDSFullAccess
+- AmazonRoute53FullAccess
+- AmazonS3FullAccess
+- IAMFullAccess
